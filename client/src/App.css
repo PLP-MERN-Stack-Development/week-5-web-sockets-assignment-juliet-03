@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffde7;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+.app-container {
+  padding: 20px;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+.chat-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.online-users {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.room-select,
+.recipient-input {
+  margin-bottom: 10px;
+}
+
+.message-box {
+  height: 250px;
+  overflow-y: scroll;
+  border: 1px solid #fdd835;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff9c4;
+}
+
+.dark-mode .message-box {
+  background-color: #333;
+  border-color: #fdd835;
+}
+
+input, select, button {
+  padding: 8px;
+  margin-right: 8px;
+  border-radius: 6px;
+  border: 1px solid #fdd835;
+}
+
+button {
+  background-color: #fdd835;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fbc02d;
+}
+
+img.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.file-upload {
+  margin-bottom: 10px;
+}
